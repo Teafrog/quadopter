@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlsActivity" >
+    
+    
+    <Button 
+        android:background="@drawable/android_icon"
+        android:id="@+id/middleButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    
+    <Button 
+        android:background="@drawable/upbutton"
+        android:id="@+id/upButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/middleButton"
+        />
+    
+    <Button 
+        android:background="@drawable/down"
+        android:id="@+id/downButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/middleButton"
+        />
+    
+     <Button 
+        android:background="@drawable/arrowsbutton"
+        android:id="@+id/leftButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/middleButton"
+        
+       />
+     
+     <Button 
+        android:background="@drawable/rightarrow"
+        android:id="@+id/rightButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/middleButton"
+        />
+    
+   
+
+</RelativeLayout>
